@@ -32,6 +32,7 @@ class DmozSpider(Spider):
             item['title'] = title
             item['link'] = link
             item['desc'] = desc
+
             items.append(item)
         return items
         # sites = sel.xpath('//ul/li')
